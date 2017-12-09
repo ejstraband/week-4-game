@@ -1,0 +1,5 @@
+Repo:
+https://github.com/ejstraband/week-4-game
+
+GitHubPages:
+https://ejstraband.github.io/week-4-game/
