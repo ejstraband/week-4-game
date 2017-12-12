@@ -1,0 +1,80 @@
+body {
+	background-color: lightblue;
+}
+
+header {
+	font-size: 95%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 35%;
+	color: white;
+	background-color: #C87031;
+}
+
+#instructions {
+	font-size: 18px;
+	font-weight: bold;
+	width: 50%;
+	color: green;
+	background-color: #FAE6CE;
+	padding-top: 20px;
+	padding-bottom: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#numberWinBlock {
+	display: block;
+	width: 250px;
+	height: 100px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+	#targetScore {
+		background-color: #5FC782;
+		font-size: 25px;
+		color: #6B2977;
+		display: inline-block;
+		height: 90%;
+		width: 70%;
+		margin-right:5px;
+	}
+
+	#winsLosses {
+		background-color: #55FCFD;
+		color: #49A798;
+		font-size: 12px;
+		display: inline-block;
+		height: 85%;
+		width: 27%;
+		padding-top: 10px;
+		float: right;
+	}
+
+#crystals {
+	margin-top: 10px;
+	display: block;
+}
+
+.crystal {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+}
+
+#totalScoreDescription {
+	color: white;
+	background-color: #33A296;
+	width: 25%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#yourScore {
+	color: white;	
+	background-color: #33A296;
+	width: 25%;
+	font-size: 25px;
+	padding-bottom: 80px;
+}

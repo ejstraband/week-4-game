@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScappleDocument Version="1.1" ID="D4996C04-8F53-4A61-B556-C264CE30422A">
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="1041.928905,69.810194" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gameStart</String>
+            <ConnectedNoteIDs>2-3</ConnectedNoteIDs>
+            <PointsToNoteIDs>2-3</PointsToNoteIDs>
+        </Note>
+        <Note ID="2" FontSize="12.0" Position="968.159127,116.7091" Width="113.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>generateGoalScore</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="1040.572664,153.956643" Width="146.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Generate 4 crystal Values</String>
+            <ConnectedNoteIDs>0, 4</ConnectedNoteIDs>
+            <PointsToNoteIDs>4</PointsToNoteIDs>
+        </Note>
+        <Note ID="4" FontSize="12.0" Position="989.422092,199.927623" Width="174.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Assign to the crystals (random)</String>
+            <ConnectedNoteIDs>3</ConnectedNoteIDs>
+        </Note>
+        <Note ID="9" FontSize="12.0" Position="262.265625,398.921875" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>crystalClick</String>
+            <ConnectedNoteIDs>12</ConnectedNoteIDs>
+        </Note>
+        <Note ID="12" FontSize="12.0" Position="262.265625,455.921875" Width="124.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>grab the ID and Value</String>
+            <ConnectedNoteIDs>9, 13</ConnectedNoteIDs>
+        </Note>
+        <Note ID="13" FontSize="12.0" Position="262.265625,512.921875" Width="127.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>add the value to score</String>
+            <ConnectedNoteIDs>12, 14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="14" FontSize="12.0" Position="262.265625,569.921875" Width="69.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>checkscore</String>
+            <ConnectedNoteIDs>13, 15, 17-18</ConnectedNoteIDs>
+        </Note>
+        <Note ID="15" FontSize="12.0" Position="366.265625,569.921875" Width="60.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>if === win</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="17" FontSize="12.0" Position="272.859375,631.78125" Width="86.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>if &gt; score, lose</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="18" FontSize="12.0" Position="101.265625,569.921875" Width="126.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>if &lt; score wait for click</String>
+            <ConnectedNoteIDs>14</ConnectedNoteIDs>
+        </Note>
+        <Note ID="19" FontSize="12.0" Position="643.896944,65.261325" Width="27.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>win</String>
+            <ConnectedNoteIDs>21</ConnectedNoteIDs>
+            <PointsToNoteIDs>21</PointsToNoteIDs>
+        </Note>
+        <Note ID="21" FontSize="12.0" Position="641.30824,120.573331" Width="46.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>wins+1</String>
+            <ConnectedNoteIDs>19, 22</ConnectedNoteIDs>
+            <PointsToNoteIDs>22</PointsToNoteIDs>
+        </Note>
+        <Note ID="22" FontSize="12.0" Position="637.565831,172.837739" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gameStart</String>
+            <ConnectedNoteIDs>21</ConnectedNoteIDs>
+        </Note>
+        <Note ID="23" FontSize="12.0" Position="724.375787,71.603395" Width="31.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>lose</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+            <PointsToNoteIDs>24</PointsToNoteIDs>
+        </Note>
+        <Note ID="24" FontSize="12.0" Position="710.668337,115.676558" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>losses+1</String>
+            <ConnectedNoteIDs>23, 25</ConnectedNoteIDs>
+            <PointsToNoteIDs>25</PointsToNoteIDs>
+        </Note>
+        <Note ID="25" FontSize="12.0" Position="710.996048,162.381793" Width="64.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>gameStart</String>
+            <ConnectedNoteIDs>24</ConnectedNoteIDs>
+        </Note>
+        <Note ID="26" FontSize="12.0" Position="793.016609,111.796986" Width="57.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>variables</String>
+            <ConnectedNoteIDs>27-31</ConnectedNoteIDs>
+        </Note>
+        <Note ID="27" FontSize="12.0" Position="866.290945,65.656356" Width="33.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>wins</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="28" FontSize="12.0" Position="895.913608,85.665163" Width="43.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>losses</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="29" FontSize="12.0" Position="888.475997,115.693385" Width="71.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>targetScore</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="30" FontSize="12.0" Position="880.090187,142.402702" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>myScore</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="31" FontSize="12.0" Position="799.526107,162.982159" Width="112.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Crystal Values 1 - 4</String>
+            <ConnectedNoteIDs>26</ConnectedNoteIDs>
+        </Note>
+        <Note ID="33" FontSize="12.0" Position="363.0,31.0" Width="40.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>To Do</String>
+        </Note>
+        <Note ID="35" FontSize="12.0" Position="872.078473,19.005844" Width="37.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Done</String>
+        </Note>
+        <Note ID="36" FontSize="12.0" Position="63.210938,70.148438" Width="121.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>generateTargetScore</String>
+        </Note>
+    </Notes>
+    <BackgroundShapes>
+        <Shape ID="32" Sticky="No" Position="14.780427,55.523745" Width="600.0" Height="600.0">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+        <Shape ID="34" Sticky="No" Position="618.546108,52.472091" Width="573.868616" Height="601.527909">
+            <Appearance>
+                <Border Weight="1"></Border>
+            </Appearance>
+        </Shape>
+    </BackgroundShapes>
+    <AutoFit>0, 2-4, 9, 12-15, 17-19, 21-31, 33, 35-36</AutoFit>
+    <NoteStyles>
+        <Style Name="Bubble (Blue)" ID="3534D721-9C38-451B-B998-FF94BB4943A6" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.561855 0.71062 0.779401</BorderColor>
+            <FillColor>0.702319 0.888276 0.974252</FillColor>
+        </Style>
+        <Style Name="Bubble (Green)" ID="37E41FDA-2646-454C-9236-A12AFA722483" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.572684 0.758969 0.558154</BorderColor>
+            <FillColor>0.715855 0.948712 0.697692</FillColor>
+        </Style>
+        <Style Name="Bubble (Pink)" ID="C8C947D4-C1AC-4017-BD89-F9F5CB599E1E" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.957566 0.766747 0.999616</FillColor>
+        </Style>
+        <Style Name="Bubble (Red)" ID="DF63EE08-A7DA-4642-81DE-381E2A293383" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.794796 0.560965 0.58607</BorderColor>
+            <FillColor>0.993495 0.701207 0.732587</FillColor>
+        </Style>
+        <Style Name="Bubble (Yellow)" ID="3E7C943D-4E13-48C2-9867-A54034ACC043" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.798177 0.714184 0.522055</BorderColor>
+            <FillColor>0.997722 0.89273 0.652569</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="852BB2B7-7C88-4723-9ABA-A068E2E89897" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>0.985948 0.0 0.026951</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="1E641BCD-660E-4012-BC42-0F4970E83935" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+    </NoteStyles>
+    <UISettings>
+        <BackgroundColor>0.999767 0.98837 0.949907</BackgroundColor>
+        <DefaultFont>Helvetica</DefaultFont>
+        <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+    </UISettings>
+    <PrintSettings PaperSize="612.0,792.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="na-letter" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+</ScappleDocument>
