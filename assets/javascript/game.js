@@ -34,6 +34,6 @@ function lose() {
 // main app logic
 
 $("crystal").on("click", function() {
-
+	var clickedCrystal = $("")
 
 });
